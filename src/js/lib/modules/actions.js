@@ -31,5 +31,5 @@ $.prototype.index = function () {
     return item == this[0];
   };
 
-  return childs.findIndex(findMyIndexs);
+  return childs.findIndex(findMyIndex);
 };
