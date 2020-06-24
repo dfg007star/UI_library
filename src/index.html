@@ -9,22 +9,29 @@
   </head>
 
   <body>
-    <div>1</div>
-    <div class="active">2</div>
-    <div class="findme">
-      <div class="some">ss</div>
-      <div class="some">ss</div>
-      <div class="some">ss</div>
-      <div class="more">mmm</div>
-      <div class="some">ss</div>
-      <div class="more">mmm</div>
+    <div class="container">
+      <button class="btn btn-primary m20" id="first">
+        Fade out first text
+      </button>
+
+      <button class="btn btn-success m20" data-count="second">
+        Fade out second text
+      </button>
+      <button class="btn btn-danger m20">Fade out all text</button>
+      <!-- Dropdown menu -->
+
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+          <a href="#" class="dropdown-item">link 1</a>
+          <a href="#" class="dropdown-item">link 2</a>
+          <a href="#" class="dropdown-item">link 3</a>
+        </div>
+      </div>
     </div>
-    <br />
-    <form action="">
-      <input />
-    </form>
-    <br />
-    <button>Click me!</button>
+
     <script src="script.js"></script>
   </body>
 </html>
