@@ -14,3 +14,5 @@ $('button')
   .on('click', () => {
     $('.w-500').fadeToggle(800);
   });
+
+$('.dropdown-toggle').dropdown();
